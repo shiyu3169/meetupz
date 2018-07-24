@@ -24,7 +24,11 @@ class Meetups extends Component {
 					}
 				);
 			}
-		)
+		).catch(
+			err => {
+				console.log(err);
+			}
+		);
 	}
 
 	componentWillMount(){
