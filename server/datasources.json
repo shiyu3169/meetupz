@@ -3,7 +3,7 @@
     "host": "localhost",
     "port": 27017,
     "url": "",
-    "database": "meetupz",
+    "database": "meetupz-app",
     "password": "",
     "name": "db",
     "user": "",

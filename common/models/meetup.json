@@ -13,17 +13,13 @@
     "city": {
       "type": "string",
       "required": true
+    },
+    "address": {
+      "type": "string"
     }
   },
   "validations": [],
   "relations": {},
-  "acls": [
-    {
-      "accessType": "WRITE",
-      "principalType": "ROLE",
-      "principalId": "$unauthenticated",
-      "permission": "DENY"
-    }
-  ],
+  "acls": [],
   "methods": {}
 }
